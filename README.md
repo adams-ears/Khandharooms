@@ -34,6 +34,6 @@ The website fulfills the owners goals by guiding users to the service right for 
 
 The links below will take you to a PDF of the wireframes i have created for this project.
 
-[PC](../pdf/KR desktop.pdf)
+[PC](/workspace/Khandharooms/designs/KRdesktop.pdf)
 
-[Mobile](../pdf/KR mobile.pdf)
+[Mobile](/workspace/Khandharooms/designs/KRmobile.pdf)
