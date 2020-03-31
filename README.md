@@ -1,35 +1,39 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Khandha Rooms
 
-Welcome USER_NAME,
+This project has been designed for my friends studio outlining the services he can provide, along with key 
+information on equipment and the studio itself. The **Khandha Rooms** project will showcase my ability to us HTML and CSS 
+for my Milestrone Project 1.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Project
+The project will reflect what i have learnt so far from the Full Stack Developer course. After seeing my friends current webpage i felt it would be benefical to create
+a page for his studio that had great UX, visually interesting and was concise enough to pass across the informatiom. 
 
-## Gitpod Reminders
+The site will be made up of five indivudal pages with a consistant header and footer across all of them. The header will only change into a condensed version (burger) when scaled down for mobile use, 
+along with header the footer will also simplify just to show social media links when scaled down. 
+The five pages and thier purposes are as follows:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- **Home:** Simple design, eye catching image, slogan that pulls you into the site.
+- **About:** Information on why the studio began/ owner / spotify link and previous clients.
+- **Studio:** Key information on the studio itself e.g. size of each room, rack units and software used in the control room, live room equipment and mics.
+- **Services:** Outline of services provided and three to four reviews of the studio.
+- **Contact Us:** Contact form for direct inquiry, location image using google maps, address and email information.
 
-`python3 -m http.server`
+## UX
+This site calls attention to the services provided by Khandha Rooms. Exhibiting each indivudal service clearly and allowing users the ability to contact the studio directly
+using a contact form. There is also an option to listen to previous works to check production quality via a spotify embedded button in the about page. 
+The website fulfills the owners goals by guiding users to the service right for them, as well as offerinng an insight into previous clients whether it may be mixing, mastering or voiceover advertising.
 
-A blue button should appear to click: *Make Public*,
+### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+- The user is able to contact studio directly with clear information on their purpose.
+- The user is able to browse services provided by studio.
+- The user is able to listen to examples of production quality from business.
+- The user is able to see reviews from previous clients.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Wireframes
 
-A blue button should appear to click: *Make Public*,
+The links below will take you to a PDF of the wireframes i have created for this project.
 
-Another blue button should appear to click: *Open Browser*.
+[PC] (../assets/pdf/KR desktop.pdf)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+[Mobile] (../assets/pdf/KR mobile.pdf)
