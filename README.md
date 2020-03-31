@@ -32,8 +32,8 @@ The website fulfills the owners goals by guiding users to the service right for 
 
 ### Wireframes
 
-The links below will take you to a PDF of the wireframes i have created for this project.
+The links below will take you to a PDF of each of the wireframes i have created for this project.
 
-[PC](/workspace/Khandharooms/designs/KRdesktop.pdf)
+[Desktop](https://github.com/adams-ears/Khandharooms/blob/master/designs/KRdesktop.pdf)
 
-[Mobile](/workspace/Khandharooms/designs/KRmobile.pdf)
+[Mobile](https://github.com/adams-ears/Khandharooms/blob/master/designs/KRmobile.pdf)
