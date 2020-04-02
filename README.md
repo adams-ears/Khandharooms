@@ -37,3 +37,60 @@ The links below will take you to a PDF of each of the wireframes i have created 
 [Desktop](https://github.com/adams-ears/Khandharooms/blob/master/designs/KRdesktop.pdf)
 
 [Mobile](https://github.com/adams-ears/Khandharooms/blob/master/designs/KRmobile.pdf)
+
+## Features
+
+Here is a list of the features included on the site.
+
+- Responsive navigations, navigation bar reduces into burger drop down menu when site is viewed on smaller screen i.e mobile.
+- Spotify embedded button allowing user to easily link to playlist from Khandha Rooms.
+- Google maps embedded into contact page allowing user to easily view location of studio.
+- Contact form submisson allowing user to inquire about services.
+- Facebook, Instagram, Youtube and Twitter buttons intergrated into footer to allow user to link to social networks.
+- Mobile responsive design allowing webiste to be viewed clearly across various different devices including mobile and tablet.
+
+## Technologies
+
+Various different technologies have been used throughout my project, they are as follows:
+
+- **Balsamiq** Rapid, effective and fun wireframing software.
+- **Github** A cloud-based hosting service that lets you manage Git repositories.
+- **Git**  A Distributed Version Control tool that is used to store different versions of a file in a remote or local repository.
+- **Gitpod** An online IDE, providing a full working development enivronment.
+- **Bootstrap** A frontend framework for developing responsive and mobile-first websites.
+- **Markdown** A lightweight markup language with plain-text formatting syntax.
+- **HTML5** Another markup language, predominantly used to structure and present content to the world wide web.
+- **CSS3** Cascading style sheet language used in conjunction with HTML to create and style content.
+
+## Testing
+
+### HTML Validatior
+
+### CSS Validatior
+
+### Browser Compatability
+
+## Deployment
+
+## Credits
+
+### Content
+
+Some text content across webpage taken from original [Khandha website](https://www.khandharooms.com/) with permission from
+studio owner Zachary Dorne.
+
+### Media
+
+The photos used in this site were obtained from the studios owner Zachary Dorne and photography credit to Piers Van Looy.
+
+### Acknowledgements
+
+I recieved inspiration for this project after spending many hours within this studio itself, and after seeing the website that was
+currently live. i felt it would be a great service to Zachary Dorne to built him something new and fully responsive. 
+
+I would like to thank Zachary for having belief in me to build him a website for his business. I would also like to thank my mentor Jonathan Munz for being supportive 
+of my ideas for the webpage and giving me the support i needed to succed in completing my project. Finally i would like to thank all of the slack 
+community for the continued support throughout the course.
+
+
+
