@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+/*-----------------------------------Colors!! */
+
+
+.navbar-light{
+     background-color: #FFD573;
+    
+}
+
+   
+/*-----------------------------------Header!! */
+
+.navbar-nav{
+    text-align: right;
+    color: black;
+}
+
+.navbar-toggler {
+    padding: 0;
+    
