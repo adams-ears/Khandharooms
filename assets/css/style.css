@@ -1,22 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
- /*-----------------------------------Colours!! */
+body{
+    font-family:"Poppins", sans-serif;
+}
+ /*-----------------------------------Colours + Backgrounds!! */
 
+
+
+body{
+    background: url("../images/controlroom.jpg") no-repeat ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+
+    }
+
+    @media only screen and (max-width: 767px) {
+  body {  background: url("../images/controlroom.jpg"); 
+          
+  }
+    }
 .navbar-light .navbar-brand{
     color: #1F6EAB
 }
 
+
+
 /*-----------------------------------Header!! */
 
 .navbar-nav{
-    font-family: "Poppins", sans-serif;
+    
     font-weight: 400;
     text-align:center;
 }
 
 .navbar-brand{
     padding-bottom: 0;
-    font-family: "Poppins",sans-serif;
     font-weight: 500;   
 }
 
@@ -51,7 +71,6 @@
 .footertext{
     text-align: center;
     font-size: 11px;
-    font-family: "Poppins", sans-serif;
     color: rgba(201,102,0,.7);  
 }
 
@@ -89,7 +108,28 @@
 
   /*-----------------------------------CALLOUT INDEX PAGE!! */
 
-.callout-container{
+.jumbotron-header{
+    text-align: center;
+    font-weight: 600;
+    z-index: 1;
+}
+.textinfo{
+    text-align: center;
+    font-weight: 400;
+    z-index: 1;
+}
+
+
+.jumbotron{
+    background-color:rgba(201,102,0,.7);
+    justify-content: center;
+    align-items: center;
+     width: 400px;
+    height: 350px;
+    
+}
+
+
 
 
 
