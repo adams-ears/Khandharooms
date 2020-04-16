@@ -3,24 +3,9 @@
 body{
     font-family:"Poppins", sans-serif;
 }
+
  /*-----------------------------------Colours + Backgrounds!! */
 
-
-
-body{
-    background: url("../images/controlroom.jpg") no-repeat ; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-    background-size: cover;
-
-    }
-
-    @media only screen and (max-width: 767px) {
-  body {  background: url("../images/controlroom.jpg"); 
-          
-  }
-    }
 .navbar-light .navbar-brand{
     color: #1F6EAB
 }
@@ -108,26 +93,51 @@ body{
 
   /*-----------------------------------CALLOUT INDEX PAGE!! */
 
+.col-12{
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0; 
+    padding-left: 0 ;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+}
+
 .jumbotron-header{
     text-align: center;
     font-weight: 600;
     z-index: 1;
+    font-size: 3em;
 }
+
 .textinfo{
     text-align: center;
     font-weight: 400;
     z-index: 1;
+    font-size: 18px;
 }
-
 
 .jumbotron{
-    background-color:rgba(201,102,0,.7);
+    background-color:rgba(178,190,181,.2);
     justify-content: center;
     align-items: center;
-     width: 400px;
-    height: 350px;
+    width: 400px;
+    margin:auto;
     
 }
+
+.block-divider{
+    width: 175px;
+    height: 1px;
+    background-color:  #1F6EAB;
+
+}
+
+
+ 
 
 
 
