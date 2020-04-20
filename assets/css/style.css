@@ -11,7 +11,21 @@ body{
 .navbar-light .navbar-brand{
     color: #1F6EAB
 }
-
+/* Index page background */
+body, html {
+  height: 100%;
+}
+.bg {
+  
+  background-image: url("../images/Keys.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
 
 /*-----------------------------------Header!! */
@@ -137,25 +151,52 @@ body{
     background-color:  #1F6EAB;
 
 }
-
-body, html {
-  height: 100%;
+/*----------------------------------- H1 Headings !! */
+.h1-contact{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 3em;
+    color:  rgba(201,102,0,.7);
 }
-.bg {
-  
-  background-image: url("../images/Keys.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+ /*-----------------------------------CONTACT FORM!! */
+
+.forminfo{
+    width: 40%;
+    padding-left: 100px; 
+    padding-top: 50px;
 }
 
- 
+label{
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    color:  rgba(201,102,0,.7);
+}
 
+.btn-success{
+    color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+}
 
+.btn-success:hover {
+    color:  #1F6EAB;
+    background-color:  rgba(201,102,0,.7);
+    border-color: rgba(201,102,0,.7);
+}
+.btn-success.focus, .btn-success:focus {
+    color:  #1F6EAB;
+    background-color:  rgba(201,102,0,.7);
+    border-color: rgba(201,102,0,.7);
+    box-shadow: 0 0 0 0.2rem rgba(201,102,0,.5);
+}
 
-
-
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #1F6EAB;
+    background-color:  rgba(201,102,0,.7);
+    border-color: rgba(201,102,0,.7);
+}
