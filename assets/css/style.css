@@ -163,8 +163,7 @@ body, html {
  /*-----------------------------------CONTACT FORM!! */
 
 .forminfo{
-    width: 50%;
-    margin-left: 50px;
+    
     margin-top: 10px;
     font-family: "Roboto", sans-serif;
     display: block;
@@ -208,3 +207,14 @@ label{
     margin-left: 1.3em;
     margin-bottom: 1.3em;
 }
+
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+     margin-right: auto;
+    margin-left: auto; 
+    padding-top: 100px;
+   
+}
+
