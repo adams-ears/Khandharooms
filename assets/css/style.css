@@ -160,6 +160,15 @@ body, html {
     font-weight: 600;
     color:  rgba(201,102,0,.7);
 }
+
+.jumbotron-contact{
+    background-color: rgba(178,190,181,.2);
+    width: 300px;
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px;
+}
+
  /*-----------------------------------CONTACT FORM and MAP!! */
 .form-map{
     padding-top: 10px;
@@ -224,7 +233,7 @@ label{
     width:75%;
     margin-bottom: 20px;
     display: block;
-    padding-top: 0;
+    padding-top: 40px;
     
 }
 
@@ -233,4 +242,16 @@ label{
     max-width: 960px;
     padding-top:40px;
 
+}}
+
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 720px;
+    padding-top: 40px;
+}}
+
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 540px;
+    padding-top: 40px;
 }}
