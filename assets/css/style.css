@@ -160,7 +160,7 @@ body, html {
     font-weight: 600;
     color:  rgba(201,102,0,.7);
 }
- /*-----------------------------------CONTACT FORM!! */
+ /*-----------------------------------CONTACT FORM and MAP!! */
 
 .forminfo{
     
@@ -214,7 +214,11 @@ label{
     padding-left: 0;
      margin-right: auto;
     margin-left: auto; 
-    padding-top: 100px;
+    padding-top: 40px;
    
 }
 
+@media (min-width:576px)
+.container .container-sm {
+    max-width: 50%;
+}
