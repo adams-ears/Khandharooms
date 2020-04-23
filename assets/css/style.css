@@ -233,25 +233,23 @@ label{
     width:75%;
     margin-bottom: 20px;
     display: block;
-    padding-top: 40px;
+    padding-top: 30px;
     
 }
 
 @media (min-width: 992px){
 .container, .container-lg, .container-md{
-    max-width: 960px;
+   
     padding-top:40px;
 
 }}
 
 @media (min-width: 768px){
 .container, .container-md, .container-sm {
-    max-width: 720px;
     padding-top: 40px;
 }}
 
 @media (min-width: 576px){
 .container, .container-sm {
-    max-width: 540px;
     padding-top: 40px;
 }}
