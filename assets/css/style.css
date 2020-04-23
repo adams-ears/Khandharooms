@@ -161,6 +161,9 @@ body, html {
     color:  rgba(201,102,0,.7);
 }
  /*-----------------------------------CONTACT FORM and MAP!! */
+.form-map{
+    padding-top: 10px;
+}
 
 .forminfo{
     
@@ -204,7 +207,6 @@ label{
     position: relative;
     display: block;
     margin-top: 1.3em;
-    margin-left: 1.3em;
     margin-bottom: 1.3em;
 }
 
@@ -218,7 +220,17 @@ label{
    
 }
 
-@media (min-width:576px)
-.container .container-sm {
-    max-width: 50%;
+.container-sm{
+    width:75%;
+    margin-bottom: 20px;
+    display: block;
+    padding-top: 0;
+    
 }
+
+@media (min-width: 992px){
+.container, .container-lg, .container-md{
+    max-width: 960px;
+    padding-top:40px;
+
+}}
