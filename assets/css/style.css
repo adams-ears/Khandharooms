@@ -152,7 +152,7 @@ body, html {
 
 }
 /*----------------------------------- H1 Headings !! */
-.h1-contact{
+.h1-contact, .h1-about{
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
@@ -161,12 +161,14 @@ body, html {
     color:  rgba(201,102,0,.7);
 }
 
-.jumbotron-contact{
+.jumbotron-contact, .jumbotron-about{
     background-color: rgba(178,190,181,.2);
-    width: 300px;
+    width: 25%;
     margin: auto;
-    padding: 0px;
+    padding-top: 0px;
     border-radius: 10px;
+    padding-bottom: 2px;
+    text-align: center;
 }
 
  /*-----------------------------------CONTACT FORM and MAP!! */
@@ -234,11 +236,34 @@ label{
     margin-bottom: 20px;
     display: block;
     padding-top: 30px;
-    
+       
+}
+/*-----------------------------------ABOUT US!! */
+
+#studio-owner{
+    padding-top: 20px;
+    margin-top: 20px;
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*-----------------------------------MEDIA QUERIES!! */
 @media (min-width: 992px){
-.container, .container-lg, .container-md{
+.container, .container-lg, .container-md,{
    
     padding-top:40px;
 
@@ -247,9 +272,16 @@ label{
 @media (min-width: 768px){
 .container, .container-md, .container-sm {
     padding-top: 40px;
+    
 }}
 
-@media (min-width: 576px){
-.container, .container-sm {
-    padding-top: 40px;
-}}
+
+ @media screen and (max-width: 550px){
+ .jumbotron-contact ,.jumbotron-about{
+     width: 100%;
+ }}
+ 
+ @media screen and (max-width: 768px){
+     .jumbotron-contact ,.jumbotron-about{
+     width: 50%;
+}} 
