@@ -9,9 +9,10 @@ body{
  /*-----------------------------------Colours + Backgrounds!! */
 
 .navbar-light .navbar-brand{
-    color: #1F6EAB
+    color: #1F6EAB;
 }
 /* Index page background */
+
 body, html {
   height: 100%;
 }
@@ -29,7 +30,6 @@ body, html {
 
 
 /*-----------------------------------Header!! */
-
 .navbar-nav{
     
     font-weight: 400;
@@ -61,8 +61,12 @@ body, html {
 #footer{
     position: fixed;
     bottom: 0;
-    width: 100%;
-    
+    width: 100%;   
+}
+.ab-footer{
+     position: inherit;
+    bottom: 0;
+    width: 100%; 
 }
 
 .container-fluid{
@@ -242,7 +246,26 @@ label{
 
 #studio-owner{
     padding-top: 20px;
-    margin-top: 20px;
+    margin-top: 4em;
+
+}
+
+.ab-div{
+    margin-top: 4em;
+    padding-left: 100px;
+
+}
+.ab-img-text{
+    font-size: 13px;
+    color:  #1F6EAB;
+    font-weight: 700;
+    padding-top: 5px;
+    text-align: center;
+    
+}
+.ab-sub-head{
+    font-weight: 700;
+    color:  rgba(201,102,0,.7);
 
 }
 
