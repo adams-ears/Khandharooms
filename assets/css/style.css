@@ -28,6 +28,14 @@ body, html {
   -o-background-size: cover;
 }
 
+/* About text background */
+
+.ab-div, .client-list {
+    background-color: rgba(178,190,181,.4);
+    padding: 10px;
+
+}
+
 
 /*-----------------------------------Header!! */
 .navbar-nav{
@@ -167,7 +175,6 @@ body, html {
 
 .jumbotron-contact, .jumbotron-about{
     background-color: rgba(178,190,181,.2);
-    width: 25%;
     margin: auto;
     padding-top: 0px;
     border-radius: 10px;
@@ -247,12 +254,17 @@ label{
 #studio-owner{
     padding-top: 20px;
     margin-top: 4em;
+    width: auto;
 
 }
 
 .ab-div{
-    margin-top: 4em;
-    padding-left: 100px;
+    margin-top: 8em;
+    color: #1F6EAB;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    display: table;
+  
 
 }
 .ab-img-text{
@@ -266,9 +278,33 @@ label{
 .ab-sub-head{
     font-weight: 700;
     color:  rgba(201,102,0,.7);
-
 }
 
+.client-list{
+    margin-left: 12px;
+    text-align: center;
+    padding: 0;
+}
+
+.cl-list{
+    color: #1F6EAB;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin: 1em;
+    
+}
+
+.client-img{
+    display: inline-block;
+    margin-left: 75px;
+    width: auto;
+}
+
+#Musician{
+    padding-top: 20px;
+    margin-left: 1.5em;
+    width: auto;
+}
 
 
 
@@ -299,12 +335,3 @@ label{
 }}
 
 
- @media screen and (max-width: 550px){
- .jumbotron-contact ,.jumbotron-about{
-     width: 100%;
- }}
- 
- @media screen and (max-width: 768px){
-     .jumbotron-contact ,.jumbotron-about{
-     width: 50%;
-}} 
