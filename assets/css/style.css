@@ -72,7 +72,7 @@ body, html {
     width: 100%;   
 }
 .ab-footer{
-     position: inherit;
+    position: inherit;
     bottom: 0;
     width: 100%; 
 }
@@ -254,18 +254,17 @@ label{
 #studio-owner{
     padding-top: 20px;
     margin-top: 4em;
-    width: 
-
+    width: auto; 
 }
+
 
 .ab-div{
     margin-top: 8em;
     color: #1F6EAB;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    display: table;
+    display: table; 
   
-
 }
 .ab-img-text{
     font-size: 13px;
@@ -281,9 +280,14 @@ label{
 }
 
 .client-list{
+    margin-top: 20px;
     margin-left: 12px;
     text-align: center;
     padding: 0;
+    margin-bottom:0;
+    height: fit-content;
+    width: fit-content;
+  
 }
 
 .cl-list{
@@ -295,14 +299,14 @@ label{
 }
 
 .client-img{
-    display: inline-block;
-    margin-left: 75px;
-    width: auto;
+    display: inline;
 }
 
-#Musician{
+#Musician, #resp-img{
     padding-top: 20px;
     margin-left: 1.5em;
+   
+    
     
 }
 
@@ -334,4 +338,45 @@ label{
     
 }}
 
+/* About page responsive */
 
+@media only screen and (max-width: 768px) {
+        #studio-owner{
+            padding:0px;
+            height:200px;
+            margin-top: 3em;
+            width:300px;
+            margin-left:1.5em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ab-div{
+         margin-top: 0;
+         text-align: center;   
+         margin-left: 20px;
+    
+}}
+
+@media only screen and (max-width: 768px) {
+    .client-list{
+    display: contents;
+    }}
+
+@media only screen and (max-width: 768px) {
+    .cl-list{
+   background: inherit;
+   padding:10px 15px 10px 15px;
+   text-align: center;
+   margin-left: 5.5em;
+    }}
+
+
+
+    @media only screen and (max-width: 768px) {
+    .client-img{
+            max-width: 100%;
+            max-height: 100%;
+            text-align: center;
+
+    }}
