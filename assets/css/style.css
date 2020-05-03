@@ -311,15 +311,44 @@ label{
 #Musician, #resp-img{
     padding-top: 20px;
     margin-left: 1.5em;
-   
-    
-    
+     
 }
 
 
+ /*-----------------------------------Studio!! */
 
 
+.control-room{
+    margin-top: 2em;
+    background-color:rgba(178,190,181,.2);
+    padding-top: 10px;
+     
+}
 
+.cont-sub-head{
+     font-weight: 500;
+     color:  rgba(201,102,0,.7);
+     text-transform: uppercase;
+     text-decoration: underline;
+}
+
+.cont-div{
+    color: #1F6EAB;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+}
+.rack-list{
+    color: #1F6EAB;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 1em;
+    font-size: 12px;
+}
+
+.live-room{
+    margin-top: 2em
+}
 
 
 
@@ -352,7 +381,7 @@ label{
             height:200px;
             margin-top: 3em;
             width:300px;
-            margin-left:1.5em;
+           
     }
 }
 
@@ -374,7 +403,7 @@ label{
    background: inherit;
    padding:10px 15px 10px 15px;
    text-align: center;
-   margin-left: 5.5em;
+   margin-left: 4.2em;
     }}
 
 
