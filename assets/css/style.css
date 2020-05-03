@@ -318,27 +318,31 @@ label{
  /*-----------------------------------Studio!! */
 
 
-.control-room{
+.control-room, .live-room{
     margin-top: 2em;
     background-color:rgba(178,190,181,.2);
     padding-top: 10px;
      
 }
 
-.cont-sub-head{
+.col-md-4{
+    font-size: 14px;
+}
+
+.cont-sub-head, .equip-sub{
      font-weight: 500;
      color:  rgba(201,102,0,.7);
      text-transform: uppercase;
      text-decoration: underline;
 }
 
-.cont-div{
+.cont-div,.live-div{
     color: #1F6EAB;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
 
 }
-.rack-list{
+.rack-list, .mic-locker, .equip-list, .equip-list-cymbal{
     color: #1F6EAB;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
@@ -349,6 +353,11 @@ label{
 .live-room{
     margin-top: 2em
 }
+
+.equip-h4{
+    text-align: center;
+}
+
 
 
 
