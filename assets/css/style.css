@@ -318,7 +318,7 @@ label{
  /*-----------------------------------Studio!! */
 
 
-.control-room, .live-room{
+.control-room, .live-room, .equipment-lists{
     margin-top: 2em;
     background-color:rgba(178,190,181,.2);
     padding-top: 10px;
@@ -354,16 +354,11 @@ label{
     margin-top: 2em
 }
 
-.equip-h4{
-    text-align: center;
+
+.std{
+    font-size: 16px;
+
 }
-
-
-
-
-
-
-
 
 
 
