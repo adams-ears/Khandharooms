@@ -369,7 +369,7 @@ label{
     background-color: #1F6EAB;
     background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%, 50%; 
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -398,6 +398,7 @@ label{
 }
 
 
+
 .mix-div, .rp-div{
      margin-top: 2em;
     background-color:rgba(178,190,181,.2);
@@ -405,23 +406,19 @@ label{
     position: relative;
 }
 
-.source-rev{
-    font-size: 9px;
+.serv-text{
     color: white;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
+.source-rev{
+    font-size: 9px;
+    color: white;
+}
 
 .rev-text{
     color: white;
