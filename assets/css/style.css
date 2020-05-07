@@ -11,6 +11,23 @@ body{
 .navbar-light .navbar-brand{
     color: #1F6EAB;
 }
+
+
+.bg-studio{
+    background-color: #F5F7F6;
+ ;
+}
+
+/* .bg-about{
+    background-image: url("../images/copperphone.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+}}
 /* Index page background */
 
 body, html {
@@ -257,16 +274,14 @@ label{
 }
 /*-----------------------------------ABOUT US!! */
 
-#studio-owner{
-    padding-top: 20px;
-    margin-top: 4em;
-    width: auto; 
-}
+
 
 
 .ab-div{
     margin-top: 5.5em;
     color: #1F6EAB;
+    border : 1px solid;
+    border-color: rgba(0,0,0,.5);
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     display: table; 
@@ -275,18 +290,20 @@ label{
 }
 .ab-img-text{
     font-size: 9px;
-    color:  #1F6EAB;
+    color:  white;
     font-weight: 700;
     padding-top: 5px;
     position: absolute;
+    background-color: black;
     
     
 }
 .ab-sub-head{
     font-weight: 500;
-    color:  rgba(201,102,0,.7);
+    color: rgba(201,102,0,.7);
     text-decoration: underline;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .client-list{
@@ -297,6 +314,8 @@ label{
     margin-bottom:0;
     height: fit-content;
     width: fit-content;
+     border : 1px solid;
+    border-color: rgba(0,0,0,.5);
   
 }
 
@@ -305,6 +324,7 @@ label{
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     margin: 1em;
+    text-align: center;
     
 }
 
@@ -312,11 +332,46 @@ label{
     display: inline;
 }
 
+#studio-owner{
+    padding-top: 20px;
+    margin-top: 4em;
+    width: auto; 
+    padding: 0px;
+   border: 1.5px solid rgba(0,0,0,.5);
+}
+
 #Musician, #resp-img{
     padding-top: 20px;
+    margin-top: 5em;
     margin-left: 1.5em;
+   padding: 0px;
+   border: 1.5px solid rgba(0,0,0,.5);
      
 }
+
+.listen{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+    font-weight : 500;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    
+}
+
+.fa-spotify{
+    margin-left: 5px;
+    font-size: 16px;
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.5);
+    
+}
+
+.fa-spotify:hover{
+    color: rgba(201,102,0,.7);
+}
+
 
 
  /*-----------------------------------Studio!! */
