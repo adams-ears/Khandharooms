@@ -15,19 +15,10 @@ body{
 
 .bg-studio{
     background-color: #F5F7F6;
- ;
 }
 
-/* .bg-about{
-    background-image: url("../images/copperphone.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
-}}
+
+
 /* Index page background */
 
 body, html {
@@ -92,6 +83,12 @@ body, html {
     position: inherit;
     bottom: 0;
     width: 100%; 
+}
+
+.serv-footer{
+    position: inherit;
+    
+    width: 100%;
 }
 
 .container-fluid{
@@ -428,10 +425,11 @@ label{
     background-color: #1F6EAB;
     background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%, 50%; 
+  background-size: cover; 
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  overflow: hidden;
 }
 
 .bg-rev{
