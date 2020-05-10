@@ -232,6 +232,7 @@ body{
  /*-----------------------------------CONTACT FORM and MAP!! */
 .form-map{
     margin-top: 3em;
+    background-color: rgba(178,190,181,.7);
 }
 
 .forminfo{
