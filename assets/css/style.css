@@ -14,15 +14,32 @@ body{
 
 
 .bg-studio{
-    background-color: #F5F7F6;
+  background-image: url("../images/contact.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150% 100%;
+   -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 
+.bg-contact{
 
-/* Index page background */
+   background-image: url("../images/rack.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 
 body, html {
-  height: 100%;
+/*   height: 100%; */
 }
 .bg {
   
@@ -35,8 +52,6 @@ body, html {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-
-/* About text background */
 
 .ab-div, .client-list {
     background-color: rgba(178,190,181,.4);
@@ -83,12 +98,6 @@ body, html {
     position: inherit;
     bottom: 0;
     width: 100%; 
-}
-
-.serv-footer{
-    position: inherit;
-    
-    width: 100%;
 }
 
 .container-fluid{
@@ -155,7 +164,7 @@ body, html {
     font-size: 3em;
 }
 
-.textinfo{
+.textinfo {
     text-align: center;
     font-weight: 400;
     z-index: 1;
@@ -178,13 +187,23 @@ body, html {
 
 }
 /*----------------------------------- H1 Headings !! */
-.h1-contact, .h1-about, .h1-studio, .h1-serv{
+.h1-about, .h1-studio, .h1-serv{
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
     padding-top: 20px;
     font-weight: 600;
-    color:  rgba(201,102,0,.7);   
+    color:  rgba(201,102,0,.7);  
+ 
+}
+
+.h1-contact{
+     text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 20px;
+    font-weight: 600;
+    color:  white;  
 }
 
 .jumbotron-contact, .jumbotron-about, .jumbotron-studio, .jumbotron-serv{
@@ -197,14 +216,10 @@ body, html {
 }
 
 
-    
-    
-    
-}
 
  /*-----------------------------------CONTACT FORM and MAP!! */
 .form-map{
-    padding-top: 10px;
+    margin-top: 3em;
 }
 
 .forminfo{
@@ -218,32 +233,33 @@ label{
     display: inline-block;
     margin-bottom: .5rem;
     font-weight: bold;
-    color:  rgba(201,102,0,.7);
+    color:  white;
+    text-transform: uppercase;
 }
 
 .btn-success{
-    color: rgba(0,0,0,.5);
-    background-color: rgba(0,0,0,.5);
-    border-color: rgba(0,0,0,.5);
+    color: white;
+    background-color: rgba(201,102,0,.7);
+    border-color: rgba(201,102,0,.7);
     text-transform: uppercase;
 }
 
 .btn-success:hover {
-    color:  #1F6EAB;
-    background-color:  rgba(201,102,0,.7);
-    border-color: rgba(201,102,0,.7);
+    color:  white;
+    background-color:  #1F6EAB;
+    border-color: #1F6EAB;
 }
 .btn-success.focus, .btn-success:focus {
-    color:  #1F6EAB;
-    background-color:  rgba(201,102,0,.7);
-    border-color: rgba(201,102,0,.7);
-    box-shadow: 0 0 0 0.2rem rgba(201,102,0,.5);
+    color:  white;
+    background-color:  #1F6EAB;
+    border-color: #1F6EAB;
+    box-shadow: 0 0 0 0.2rem #1F6EAB;
 }
 
 .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
-    color: #1F6EAB;
-    background-color:  rgba(201,102,0,.7);
-    border-color: rgba(201,102,0,.7);
+    color: white;
+    background-color:  #1F6EAB;
+    border-color: #1F6EAB;
 }
 .embed-responsive {
     position: relative;
