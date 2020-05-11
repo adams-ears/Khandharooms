@@ -39,7 +39,7 @@ body{
 .bg-contact{
 
    background-image: url("../images/rack.jpg");
-  height: 100vh;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,12 +59,6 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-
- /* body,html{
-  height: 100vh; 
-} */
-
-
 
 .ab-div, .client-list {
     background-color: rgba(178,190,181,.4);
@@ -544,6 +538,7 @@ label{
             padding:0px;
             margin-top: 3em;
             margin-left: 5em;
+            text-align: center;
            
            
     }
@@ -557,12 +552,24 @@ label{
            
     }
 }
+@media (max-width: 575.98px){
+    .colab {
+          flex-basis: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 575.98px) {
+.ab-img-text{
+    
+    visibility: hidden;
+
+}}
 
 @media only screen and (max-width: 768px) {
     .ab-div{
          margin-top: 2em;
          text-align: center;   
-         margin-left: 20px;
          margin-right: 0;
     
 }}
@@ -587,8 +594,15 @@ label{
             max-width: 100%;
             max-height: 100%;
             text-align: center;
-
     }}
+
+    
+    @media only screen and (max-width: 768px) {
+    #resp-img{
+            margin-top: 2em;
+    }}
+ 
+
 
 /* Studio response */
 
@@ -611,13 +625,6 @@ label{
            
     }
 }
-
-
-
-
-
-
-
 
 /* Services response */
 
@@ -657,12 +664,7 @@ label{
     max-width: 100%;
 }}
 
-@media (min-width: 1440px){
- .serv-footer{
-     position: fixed;
- 
-
-}}
+/* backgrounds */
 
     @media (max-width: 991.98px){
 .bg-serv{
@@ -670,3 +672,12 @@ label{
      background-color: #1F6EAB;
 }}
 
+@media (max-width: 991.98px){
+    .bg-contact{
+        height: 100vh;
+}}
+
+@media (max-width: 575.98px){
+    .bg-contact{
+        height: 100vh;
+}}
