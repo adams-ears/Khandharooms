@@ -522,7 +522,7 @@ label{
 
  /*-----------------------------------MEDIA QUERIES!! */
 @media (min-width: 992px){
-.container, .container-lg, .container-md,{
+.container, .container-lg, .container-md{
    
     padding-top:40px;
 
@@ -535,6 +535,14 @@ label{
 }}
 
 
+@media (max-width: 575.98px){
+    .btn-success{
+        margin-left: 5em;
+      
+    }
+}
+
+
 
 
 
@@ -545,9 +553,7 @@ label{
             padding:0px;
             margin-top: 3em;
             margin-left: 5em;
-            text-align: center;
-           
-           
+            text-align: center;    
     }
 }
 
@@ -586,6 +592,7 @@ label{
     display: contents;
     }}
 
+
 @media only screen and (max-width: 768px) {
     .cl-list{
    background: inherit;
@@ -608,11 +615,8 @@ label{
     #resp-img{
             margin-top: 2em;
     }}
- 
-
 
 /* Studio response */
-
 
     @media only screen and (max-width: 768px) {
        .col-md-4{
@@ -627,9 +631,7 @@ label{
 
     @media only screen and (max-width: 768px) {
        .mic-locker, .rack-list{
-            text-align: center;
-            
-           
+            text-align: center;     
     }
 }
 
@@ -640,10 +642,7 @@ label{
            -ms-flex: 0 0 100%;
             flex: 0 0 100%;
             max-width: 100%;
-            margin-bottom: 1em;
-         
-            
-           
+            margin-bottom: 1em;          
     }
 }
 
@@ -654,7 +653,6 @@ label{
             margin-bottom: 1em;      
     }
 }
-
 
 /* Footer */
 
@@ -676,7 +674,7 @@ label{
     @media (max-width: 991.98px){
 .bg-serv{
     background: none;
-     background-color: #1F6EAB;
+    background-color: #1F6EAB;
 }}
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -712,6 +710,32 @@ label{
     }
 }
 
+/* iphone 5/se media q's */
 
+@media screen and (device-aspect-ratio: 40/71) {
+.navbar-brand{
+    font-size: 18px;
+}
+}
 
-    
+@media screen and (device-aspect-ratio: 40/71){
+    #footer{
+        position:inherit;
+    }
+}
+
+@media screen and (device-aspect-ratio: 40/71){
+    .btn-success{
+        margin-left: 3.5em;
+        margin-top: 0;
+    }
+}
+
+/* Iphone + media q */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+    .btn-success{
+       margin-left: 6em;
+    }
+}
