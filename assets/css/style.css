@@ -93,6 +93,11 @@ body{
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgba(201,102,0,.7);    
 }
+
+.navbar-light .navbar-brand:hover {
+    color: rgba(201,102,0,.7);
+
+}
  
    /*-----------------------------------Footer!! */
 
@@ -251,6 +256,8 @@ label{
     background-color: rgba(201,102,0,.7);
     border-color: rgba(201,102,0,.7);
     text-transform: uppercase;
+    margin-left: 5.75em;
+    margin-top: 1em;
 }
 
 .btn-success:hover {
@@ -299,9 +306,7 @@ label{
     height: 300px;
     width: 300px;
 }
-.row{
-    -ms-flex-wrap: wrap;
-}
+
 .ab-div{
     margin-top: 5.5em;
     color: white;
