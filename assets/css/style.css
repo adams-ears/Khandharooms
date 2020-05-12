@@ -299,7 +299,9 @@ label{
     height: 300px;
     width: 300px;
 }
-
+.row{
+    display:-ms-flexbox;
+}
 .ab-div{
     margin-top: 5.5em;
     color: white;
