@@ -1,4 +1,5 @@
 # Khandha Rooms
+[Live Site](https://adams-ears.github.io/Khandharooms/)
 
 This project has been designed for my friend's studio outlining the services he can provide, along with key 
 information on equipment and the studio itself. The **Khandha Rooms** project will showcase my ability to use HTML and CSS 
@@ -67,10 +68,12 @@ Various different technologies have been used throughout my project, they are as
 
 ### HTML Validatior
 Results from HTML validatior:
+
 ![](https://github.com/adams-ears/Khandharooms/blob/master/designs/htmlvalid.png)
 
 ### CSS Validatior
 Results from CSS validator - Errors shown in image below are due to Bootstrap framework.
+
 ![](https://github.com/adams-ears/Khandharooms/blob/master/designs/cssvalid.png)
 
 ### Browser Compatability
@@ -86,6 +89,10 @@ The webpage was desinged using Google Chrome however functions on all browsers m
 
 ## Deployment
 
+**Github Pages** has been used to host my GitHub respository 
+The live site can be found at the [following link:](https://adams-ears.github.io/Khandharooms/)
+
+The source code for the webpage can be in my repository [here:](https://github.com/adams-ears/Khandharooms) 
 ## Credits
 
 ### Content
