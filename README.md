@@ -3,16 +3,16 @@
 # Khandha Rooms
 [Live Site](https://adams-ears.github.io/Khandharooms/)
 
-This project has been designed for my friend's studio outlining the services he can provide, along with key 
-information on equipment and the studio itself. The **Khandha Rooms** project will showcase my ability to use HTML and CSS 
+This project has been designed for a friends studio. The website aims to outline the services it provides along with key 
+information on equipment, previous clients and the studio itself. The **Khandha Rooms** project will showcase my ability to use HTML and CSS 
 for my Milestrone Project 1.
 
 ## Project
-The project will reflect what i have learnt so far from the Full Stack Developer course. After seeing my friends current web page I felt it would be beneficial to create
-a page for his studio that had great UX, visually interesting and was concise enough to pass across the information. 
+My project will be a reflection of what i have learnt so far from the (Full Stack Developer course). After viewing the studios current web page I felt it would be beneficial to create
+a website that had great UX, concise information and was visually interesting. 
 
-The site will be made up of five individual pages with a consistent header and footer across all of them. The header will only change into a condensed version (burger) when scaled down for mobile use, 
-along with header the footer will also simplify just to show social media links when scaled down. 
+The site is made up of five individual pages with a consistent header and footer across all of them. The header will change into a condensed version (burger) when scaled down for mobile use, 
+the header the footer will also simplify to show only social media links. 
 The five pages and their purposes are as follows:
 
 - **Home:** Simple design, eye catching image, slogan that pulls you into the site.
@@ -22,9 +22,9 @@ The five pages and their purposes are as follows:
 - **Contact Us:** Contact form for direct inquiry, location image using google maps, address and email information.
 
 ## UX
-This site calls attention to the services provided by Khandha Rooms. Exhibiting each individual service clearly and allowing users the ability to contact the studio directly
-using a contact form. There is also an option to listen to previous works to check the production quality via a Spotify embedded button in the about page. 
-The website fulfills the owners' goals by guiding users to the service right for them, as well as offering an insight into previous clients whether it may be mixing, mastering or voiceover advertising.
+The site calls attention to the services provided by Khandha Rooms. I exhibits each individual service clearly and allows users to contact the studio easily
+using the 'contact form', there is also an option to listen to previous works to check the production quality via a Spotify embedded button in the about page. 
+The website fulfills the owners' goals by guiding users to the service that is right for them, as well as offering an insight into previous clients whether it may be mixing, mastering or voiceover advertising.
 
 ### User Stories
 

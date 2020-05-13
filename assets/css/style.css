@@ -14,7 +14,7 @@ body{
 
 .bg {
   
-  background-image: url("../images/Keys.jpg");
+  background-image: url("../images/Keys-min.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body{
 
 .bg-about{
 
-   background-image: url("../images/contact.jpg");
+   background-image: url("../images/contact-min.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body{
 
 .bg-contact{
 
-   background-image: url("../images/rack.jpg");
+   background-image: url("../images/rack-min.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ body{
 
 .bg-studio{
 
-   background-image: url("../images/copperphone.jpg");
+   background-image: url("../images/copperphone-min.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -478,7 +478,7 @@ label{
 /*----------------------------------- Services !! */
 
 .bg-serv{
-    background-image: url("../images/Telefunken.jpg");
+    background-image: url("../images/Telefunken-min.jpg");
     height: 100%;
     background-color: #1F6EAB;
     background-position: center;
