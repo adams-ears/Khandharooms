@@ -43,7 +43,13 @@ The links below will take you to a PDF of each of the wireframes i have created 
 
 ### Design Progression
 
+I ended up changing the original backgrounds I had chosen for the **Home**, **About**, **Studio** and **Contact** page. This is because as the website
+progressed, I wanted the pages to flow and have a similar feel to ensure each page felt in keeping with the others. 
+By changing the background on the mentioned pages, this led to making a change in the color scheme to more fitting and appealing colours. 
 
+I decided to hide various images in the mobile view as it helped the website become less cluttered when scaled down, in turn it assisted the presentation
+of the important information. I felt the decisions made to deviate from the wireframes were justified and were essential to 
+provide an overall better user experience.
 
 ## Features
 
