@@ -67,11 +67,22 @@ Various different technologies have been used throughout my project, they are as
 
 ### HTML Validatior
 Results from HTML validatior:
-
 ![](https://github.com/adams-ears/Khandharooms/blob/master/designs/htmlvalid.png)
+
 ### CSS Validatior
+Results from CSS validator - Errors shown in image below are due to Bootstrap framework.
+![](https://github.com/adams-ears/Khandharooms/blob/master/designs/cssvalid.png)
 
 ### Browser Compatability
+Browser compatability was tested across five different web browsers and these are:
+
+- Google Chrome
+- Mozilla Firefox
+- Internet Explorer 11
+- Safari
+- Opera
+
+The webpage was desinged using Google Chrome however functions on all browsers mentioned above. 
 
 ## Deployment
 
