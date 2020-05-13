@@ -307,6 +307,12 @@ label{
     width: 300px;
 }
 
+.row{
+        display: -ms-flexbox;
+        -ms-flex-wrap: wrap;
+        
+}
+
 .ab-div{
     margin-top: 5.5em;
     color: white;
