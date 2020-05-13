@@ -260,16 +260,44 @@ label{
     margin-top: 1em;
 }
 
+
+.btn-primary{
+    color: white;
+    background-color: rgba(201,102,0,.7);
+    border-color: rgba(201,102,0,.7);
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+.btn-primary:hover{
+       color:  white;
+    background-color:  #1F6EAB;
+    border-color: #1F6EAB;
+}
+
 .btn-success:hover {
     color:  white;
     background-color:  #1F6EAB;
     border-color: #1F6EAB;
 }
-.btn-success.focus, .btn-success:focus {
+
+.btn-primary.focus, .btn-primary:focus{
     color:  white;
     background-color:  #1F6EAB;
     border-color: #1F6EAB;
     box-shadow: 0 0 0 0.2rem #1F6EAB;
+}
+
+.btn-success.focus, .btn-success:focus{
+    color:  white;
+    background-color:  #1F6EAB;
+    border-color: #1F6EAB;
+    box-shadow: 0 0 0 0.2rem #1F6EAB;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    color: white;
+    background-color:  #1F6EAB;
+    border-color: #1F6EAB;
 }
 
 .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
