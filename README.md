@@ -107,11 +107,15 @@ the webpage more user friendly, as well as having access to feedback from a 'fre
 
 ## Deployment
 
-**Github Pages** has been used to host my GitHub respository 
+**Github Pages** has been used to host my GitHub respository. Due to using Github, deployment to Github pages was automatic each time
+I 'push' my local changes to my repository. Using the Github pages setup instructions allowed me to publish my site and make it live.
 
 The live site can be found at the [following link:](https://adams-ears.github.io/Khandharooms/)
 
 The source code for the webpage can be found in my repository [here:](https://github.com/adams-ears/Khandharooms) 
+
+The deployed version of the website is identical to the final development version, previous to this the development version differed greatly
+due to the website being built.
 
 ## Credits
 
