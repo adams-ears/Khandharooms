@@ -41,6 +41,10 @@ The links below will take you to a PDF of each of the wireframes i have created 
 
 [Mobile](https://github.com/adams-ears/Khandharooms/blob/master/designs/KRmobile.pdf)
 
+### Design Progression
+
+
+
 ## Features
 
 Here is a list of the features included on the site.
@@ -101,7 +105,7 @@ the webpage more user friendly, as well as having access to feedback from a 'fre
 
 The live site can be found at the [following link:](https://adams-ears.github.io/Khandharooms/)
 
-The source code for the webpage can be in my repository [here:](https://github.com/adams-ears/Khandharooms) 
+The source code for the webpage can be found in my repository [here:](https://github.com/adams-ears/Khandharooms) 
 
 ## Credits
 
@@ -116,11 +120,11 @@ The photos used in this site were obtained from the studios owner Zachary Dorne 
 
 ### Acknowledgements
 
-I received inspiration for this project after spending many hours within this studio itself, and after seeing the website that was
-currently live. i felt it would be a great service to Zachary Dorne to build him something new and fully responsive. 
+I received inspiration for this project after personally spending many hours in the studio itself and after seeing the current website,
+I felt it would be a great service to Zachary Dorne to build him something new and fully responsive. 
 
-I would like to thank Zachary for having belief in me to build him a website for his business. I would also like to thank my mentor Jonathan Munz for being supportive 
-of my ideas for the webpage and giving me the support i needed to succeed in completing my project. Finally I would like to thank all of the slack 
+I would like to thank Zachary for trusting me to build him a website for his business. I would also like to thank my mentor Jonathan Munz for being supportive 
+of my ideas for the webpage and giving me the guidance needed to succeed in completing my project. Finally I would like to thank all of the slack 
 community for the continued support throughout the course.
 
 
