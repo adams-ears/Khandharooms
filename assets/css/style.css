@@ -718,30 +718,30 @@ label{
 
 /* iphone 5/se media q's */
 
-@media screen and (device-aspect-ratio: 40/71) {
+@media screen and (aspect-ratio: 40/71) {
 .navbar-brand{
     font-size: 18px;
 }
 }
 
-@media screen and (device-aspect-ratio: 40/71){
+@media screen and (aspect-ratio: 40/71){
     #footer{
         position:inherit;
     }
 }
 
-@media screen and (device-aspect-ratio: 40/71){
+@media screen and (aspect-ratio: 40/71){
     .btn-success{
         margin-left: 3.5em;
         margin-top: 0;
     }
 }
 
-/* Iphone + media q */
+/* Iphone plus media q */
 @media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
+and (min-width : 414px) 
+and (max-width : 736px) {
     .btn-success{
-       margin-left: 6em;
+       margin-left: 6.25em;
     }
 }
