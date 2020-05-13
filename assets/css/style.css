@@ -309,7 +309,7 @@ label{
 
 .row{
         display: -ms-flexbox;
-        -ms-flex-wrap: wrap;
+        -moz-flex-wrap: nowrap;
         
 }
 
