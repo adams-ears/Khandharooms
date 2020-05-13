@@ -1,3 +1,5 @@
+![](https://github.com/adams-ears/Khandharooms/blob/master/designs/mockup.png)
+
 # Khandha Rooms
 [Live Site](https://adams-ears.github.io/Khandharooms/)
 
@@ -87,12 +89,20 @@ Browser compatability was tested across five different web browsers and these ar
 
 The webpage was desinged using Google Chrome however functions on all browsers mentioned above. 
 
+### Other testing
+
+The webpage was submitted to the peer-code-review channel within the code institutes slack community.
+This was extremely valuable for feedback from other mentors, module leads and students. It helped me to undersand what could be added or removed to make
+the webpage more user friendly, as well as having access to feedback from a 'fresh set of eyes'.
+
 ## Deployment
 
 **Github Pages** has been used to host my GitHub respository 
+
 The live site can be found at the [following link:](https://adams-ears.github.io/Khandharooms/)
 
 The source code for the webpage can be in my repository [here:](https://github.com/adams-ears/Khandharooms) 
+
 ## Credits
 
 ### Content
