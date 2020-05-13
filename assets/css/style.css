@@ -346,7 +346,7 @@ label{
     color: white;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    display: table; 
+     
     margin-right: 6em;
   
 }
@@ -580,7 +580,7 @@ label{
 
 
 
-/* About page responsive */
+/* About page responsive - all media Qs taken from bootsrap website */
 
 @media only screen and (max-width: 768px) {
         #studio-owner{
@@ -650,7 +650,7 @@ label{
             margin-top: 2em;
     }}
 
-/* Studio response */
+/* Studio response - all media Qs taken from bootsrap website */
 
     @media only screen and (max-width: 768px) {
        .col-md-4{
@@ -669,7 +669,7 @@ label{
     }
 }
 
-/* Services response */
+/* Services response - all media Qs taken from bootsrap website */
 
     @media only screen and (max-width: 768px) {
        .col-sm-3, .col-sm-6{
@@ -680,7 +680,7 @@ label{
     }
 }
 
-/* contact response  */
+/* contact response - all media Qs taken from bootsrap website  */
 
 @media only screen and (min-width: 768px) {
        .button{
@@ -703,7 +703,7 @@ label{
     max-width: 100%;
 }}
 
-/* background services */
+/* background services - all media Qs taken from bootsrap website */
 
     @media (max-width: 991.98px){
 .bg-serv{
@@ -724,9 +724,9 @@ label{
     }
 }
 
-/* background contact page */
+/* background contact page - all media Qs taken from bootsrap website */
 
-@media (min-width: 768px) and (max-width: 991.98px){
+@media (min-width: 768px) and (max-width: 991.98px){             
     .bg-contact{
         height: 100vh;
     }
@@ -750,20 +750,15 @@ label{
 .navbar-brand{
     font-size: 18px;
 }
-}
-
-@media screen and (aspect-ratio: 40/71){
-    #footer{
+   #footer{
         position:inherit;
     }
-}
-
-@media screen and (aspect-ratio: 40/71){
-    .btn-success{
+       .btn-success{
         margin-left: 3.5em;
         margin-top: 0;
     }
 }
+
 
 /* Iphone plus media q */
 @media only screen 
